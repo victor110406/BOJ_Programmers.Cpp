@@ -5,7 +5,7 @@ int main() {
     int n, sum = 1;
     cin >> n;
     if (n == 1) {
-        cout << "1" << '\n';
+        cout << 1 << '\n';
         return 0;
     }
     while (sum < n) {
