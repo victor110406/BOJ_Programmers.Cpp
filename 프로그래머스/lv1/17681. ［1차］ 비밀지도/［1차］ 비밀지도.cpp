@@ -33,8 +33,6 @@ vector<string> solution(int n, vector<int> arr1, vector<int> arr2) {
     for (int i = 0; i < arr2.size(); i++) {
         ve1.push_back(binary(arr2[i], n));
     }
-    copy(ve.begin(), ve.end(), ostream_iterator<string>(cout, " "));
-    copy(ve1.begin(), ve1.end(), ostream_iterator<string>(cout, " "));
 
     for (int i = 0; i < n; i++) {
         for (int j = 0; j < n; j++) {
