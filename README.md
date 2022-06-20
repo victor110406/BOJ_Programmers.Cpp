@@ -1,2 +1,7 @@
-# Baekjoon_C-
-This is a auto push repository for Baekjoon Online Judge created with [BaekjoonHub](https://github.com/BaekjoonHub/BaekjoonHub).
+# 온라인 저지 문제풀이
+
+## 이용하는 Online Judge
+* BOJ(Backjoon Online Judge) <https://www.acmicpc.net>
+* Programmers <https://programmers.co.kr>
+* CodeUp <https://codeup.kr>
+
