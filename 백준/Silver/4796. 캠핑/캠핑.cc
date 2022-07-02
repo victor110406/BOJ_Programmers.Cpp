@@ -1,31 +1,13 @@
 #include <iostream>
-#include <string>
-#include <vector>
-#include <algorithm>
 using namespace std;
-
-int main(){
-
-	int L, P, V;
-	int count = 1;
+int main()
+{
+	int i = 0, L, P, V, result = 0;
 	while (cin >> L >> P >> V) {
-		if (L == 0) {
+		if (L == 0)
 			break;
-		}
-		cout << "Case " << count << ": ";
-		int result = 0;
-		int R = V / P;
-		int O = V % P;
-		result += L * R;
-		if (O >= L) {
-			result += L;
-		}
-		else {
-			result += O;
-		}
-		cout << result << '\n';
-		count++;
+		result = min(V % P, L) + (V / P) * L;
+		cout << "Case " << ++i << ": " << result << "\n";
 	}
-	
 	return 0;
 }
