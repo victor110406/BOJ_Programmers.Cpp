@@ -1,13 +1,11 @@
-#include <iostream>
+#include <iostream> 
 using namespace std;
-int main()
-{
-	int i = 0, L, P, V, result = 0;
+int main(){
+	int i = 0, L, P, V;
 	while (cin >> L >> P >> V) {
 		if (L == 0)
 			break;
-		result = min(V % P, L) + (V / P) * L;
-		cout << "Case " << ++i << ": " << result << "\n";
+		cout << "Case " << ++i << ": " << min(V % P, L) + (V / P) * L << "\n";
 	}
 	return 0;
 }
