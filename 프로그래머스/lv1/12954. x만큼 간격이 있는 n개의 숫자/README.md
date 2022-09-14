@@ -1,10 +1,10 @@
 # [level 1] x만큼 간격이 있는 n개의 숫자 - 12954 
 
-[문제 링크](https://programmers.co.kr/learn/courses/30/lessons/12954) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/12954?language=csharp) 
 
 ### 성능 요약
 
-메모리: 4.12 MB, 시간: 0.19 ms
+메모리: 31.3 MB, 시간: 0.18 ms
 
 ### 구분
 
