@@ -1,10 +1,10 @@
 # [unrated] 나이 출력 - 120820 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/120820) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/120820?language=c) 
 
 ### 성능 요약
 
-메모리: 4.04 MB, 시간: 0.01 ms
+메모리: 4.34 MB, 시간: 0.01 ms
 
 ### 구분
 
